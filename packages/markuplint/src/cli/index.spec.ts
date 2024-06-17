@@ -152,7 +152,7 @@ describe('Issues', () => {
 				severity: 'warning',
 				line: 1,
 				col: 1,
-				message: `Plugin not found: ${escape(path.resolve(__dirname, '../../test/issue1824/no-exist-plugin.js'))}`,
+				message: `Plugin not found: ${path.resolve(__dirname, '../../test/issue1824/no-exist-plugin.js')}`,
 				raw: '',
 			},
 		]);
